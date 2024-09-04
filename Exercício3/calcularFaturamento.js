@@ -1,3 +1,4 @@
+const faturamentoMensal = require('./faturamento.json');
 
 function calcularFaturamento(faturamentoMensal) {
 
@@ -29,8 +30,6 @@ function calcularFaturamento(faturamentoMensal) {
         diasAcimaDaMedia
     };
 }
-    
-const faturamentoMensal = require('./faturamento.json');
 
 const resultado = calcularFaturamento(faturamentoMensal);
 
